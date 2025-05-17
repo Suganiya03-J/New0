@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #343a40;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: #f1f3f5;
+  flex-direction: column;
+}
+
+
+
+/* Card Styling */
+.invoice-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto 40px auto;
+}
+
+/* Buttons */
+.custom-btn {
+  background-color: #bf3578;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  background-color: #3abfa2;
+}
+
+/* Tables */
+.custom-table thead {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 1rem;
+  vertical-align: middle;
+  border-color: #dee2e6;
+}
+
+/* Modal content */
+#invoiceCapture {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Titles */
+h2, h4, h5 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .invoice-card {
+    padding: 1rem;
+  }
+
+  .custom-btn {
+    width: 100%;
+  }
+  
+}
